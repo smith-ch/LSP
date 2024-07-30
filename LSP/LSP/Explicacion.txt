@@ -1,0 +1,7 @@
+﻿
+## Principio (LSP)
+
+Cumplo con el principio de sustitución de Liskov porque las clases derivadas 
+(`OnlineCourse`, `OfflineCourse`, `HybridCourse`) pueden usarse de manera intercambiable sin alterar 
+el comportamiento del programa. Cada clase implementa los métodos 
+`Subscribe` y `GetCourseDetails` de la clase base `Course`, lo que asegura la consistencia y funcionalidad esperada.
